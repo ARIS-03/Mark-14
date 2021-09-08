@@ -6,7 +6,7 @@
 }
 
 :root {
-    --primary-color : #1b82e3;
+    --primary-color : #2f373f;
 }
 
 body {
@@ -52,7 +52,7 @@ input {
 }
 
 #check-btn:hover {
-    background-color: #1272cc;
+    background-color: #292d31;
     cursor: pointer;
 }
 
@@ -96,12 +96,13 @@ input {
 
 }
 .social-items a:hover{
-    color:cornflowerblue;
+    color:rgb(65, 83, 116);
 }
 
 .outer-footer{
     padding:center;
     text-align:center;
     color: black;
-    /* background-color: #3f3f3f; */
+    padding-bottom: 10rem;
+    
 }
