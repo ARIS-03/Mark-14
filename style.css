@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color : #1b82e3;
+}
+
+body {
+    font-family: 'Segoe UI';
+}
+
+.container {
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+h1 {
+    margin: 1em;
+}
+
+label {
+    margin: 0.5em;
+}
+
+input {
+    margin: 1em;
+    padding: 0.5em;
+    font-size: 0.8em;
+    width: 160px;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+#check-btn {
+    padding: 0.8em;
+    margin: 1em;
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.2em;
+}
+
+#check-btn:hover {
+    background-color: #1272cc;
+    cursor: pointer;
+}
+
+#message {
+    margin: 1em;
+    font-size: larger;
+}
+
+
+.inner-footer {
+
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.social-links{
+    display: flex;
+
+}
+
+.social-links ul{
+
+    padding:10px;
+
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+}
+.social-items {
+    list-style: none;
+}
+
+.social-items a{
+
+    padding: 10px 20px;
+    font-size: 35px;
+    transition: all .25;
+    
+
+}
+.social-items a:hover{
+    color:cornflowerblue;
+}
+
+.outer-footer{
+    padding:center;
+    text-align:center;
+    color: black;
+    /* background-color: #3f3f3f; */
+}
